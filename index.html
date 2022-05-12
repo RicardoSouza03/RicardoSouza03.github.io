@@ -4,46 +4,76 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Ricardo Lino de Souza</title>
 </head>
 <body>
 
-  <ul>
-    <li><a href="#habilidades1">Habilidades da qual me orgulho</a></li><br>
-    <li><a href="#habilidades2">Outras habilidades</a></li><br>
-  </ul>
 
-  <h1>Ricardo Lino de Souza</h1>
-<br>
-  <img src="./profile.jpeg" alt="Eu em um dia ensolarado, com um fundo verde com plantas" width="180px" id="profile">
-<br>
-  <p>Olá, meu nome é <strong>Ricardo Lino de Souza</strong>, nasci em julho de 2003, e desde pequeno sempre fui morador de <em>São Paulo/Brasil</em>, residindo em São Bernardo do Campo.
-  <br>
-  Sou estudante de desenvolvimento web na <a href="https://www.betrybe.com/">Trybe</a>
-</p>
-<br>
-  <h4>Um blog que eu venho acompanhando recentemente <a href="https://diolinux.com.br/">Diolinux</a> e recomendo para quem utiliza o sistema operacional <em><strong>Linux</strong></em>.</h4>
-<br>
-  <h3 id="habilidades1"><em>Habilidades que mais me orgulho</em></h3>
-  <ul>
-    <li>Bom ouvinte</li><br>
-    <li>Git</li><br>
-    <li>Colaboração</li><br>
-  </ul>
+  <main class="main-content">
 
-  <h3 id="habilidades2"><em>Algumas outras habilidades:</em></h3>
-  <ul>
-    <li>Sei dirigir, carro e moto</li><br>
-    <li>Consigo andar de bicicleta sem usar as mãos</li><br>
-    <li>Comprometido</li><br>
-    <li>Caridoso</li><br>
-    <li>Empático</li><br>
-    <li>Raciocinio Lógico</li><br>
-    <li>Pensamento independente</li><br>
-    <li>Fala assertiva</li><br>
-    <li>Diferenciar modelos de Pensamento</li><br>
-  </ul>
+    <header>
+      <h1 id="name">Ricardo Lino de Souza</h1>
+      <nav class="nav-bar">
+        <ul>
+          <a class="nav" href="#secondary-content"><li>Habilidades</li></a>
+          <a class="nav" href="#"><li>Contato</li></a>
+          <a class="nav" href="#photos"><li>Fotos</li></a>
+        </ul>
+      </nav>
+    </header>
+    <hr>
 
-  <a href="#profile" >Esta é uma foto minha</a>
+    <img class="selfie" src="./profile.jpeg" alt="Uma imagem minha em um dia ensolarado">
+    <div class="background-image"></div>
+    <div class="discription">
+      <p>Olá, meu nome é <strong>Ricardo Lino de Souza</strong>, eu nasci em julho de
+        2003 em <em>São Paulo/Brasil</em>, onde resido até hoje. <br> 
+        Após o término do ensino méido, decidi seguir o caminho de desenvolvimento web, e começei a trilhar essa estrada na <a href="https://www.betrybe.com/" target="_blank">Trybe</a>, onde tive a oportunidade de começar meus estudos, onde em breve, me formarei desenvolvedor full-stack.</p>
+      </div>
+
+      <div class="clear"></div>
+
+
+      <h4 class="blog-recomendation">Aqui, um blog que eu venho acompanhando recentemente e recomendo para quem utiliza o sistema operacional <em><strong>Linux</strong></em><a href="https://diolinux.com.br/" target="_blank"> Diolinux</a>.
+      </h4>
+
+      <hr>
+      
+      <div id="secondary-content">
+       
+        <div class="first-label">
+          <h3><em>Habilidades das quais me orgulho:</em></h3>
+            <ul>
+              <li class="impares">Bom ouvinte</li>
+              <li>Git</li>
+              <li class="impares">Colaboração</li>
+              <li>Caridoso</li>
+              <li class="impares">Comprometido</li>
+            </ul>
+        </div>
+
+        <div class="second-label">
+          <h3><em>Outras habilidades:</em></h3>
+            <ul>
+              <li class="impares">Sei dirigir, carro e moto</li>
+              <li>Consigo andar de bicicleta sem usar as mãos</li>
+              <li class="impares">Empático</li>
+              <li>Raciocinio Lógico</li>
+              <li class="impares">Pensamento independente</li>
+              <li>Fala assertiva</li>
+              <li class="impares">Diferenciar modelos de Pensamento</li>
+              <li>Persistente</li>
+            </ul>
+        </div>
+
+      </div>
+          
+      <hr>
+
+
+  </main>
+
+
 </body>
 </html>

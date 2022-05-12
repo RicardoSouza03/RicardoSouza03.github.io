@@ -1,0 +1,132 @@
+body {
+  background-color: black;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(70, 126, 172);
+}
+
+#name {
+  text-decoration: underline;
+  /* color: rgb(104, 0, 202); */
+  color: black;
+  font-size: 50px ;
+  font-family: Verdana, Tahoma, sans-serif ;
+  /* text-shadow: 5px 5px 10px rgb(153, 81, 153); */
+  text-shadow: 5px 5px 10px rgb(97, 97, 97);
+  margin-bottom: 10px;
+}
+
+.nav-bar {
+  /* border: 2px solid blue; */
+  display: inline;
+  width: 100%;
+  margin: auto;
+  height: 50px;
+  align-items: center;
+  padding: 50%;
+}
+
+
+.nav-bar li {
+  display: inline-block;
+  list-style: none;
+  margin: auto;
+  padding: 10px 45px;
+  background-color: rgb(39, 12, 116);
+  color: #ffff;
+  border-radius: 30px;
+  box-shadow: -1px 7px rgba(90, 90, 90, 0.7);
+}
+
+.nav-bar li:hover {
+  background-color: #ffff;
+  color: black;
+  text-decoration: underline;
+  font-synthesis: style;
+}
+
+.nav-bar li:active{
+  background-color: #ffff;
+  box-shadow: 0 5px rgba(22, 22, 22, 0.7);
+  translate: translate(0 4px);
+}
+
+
+.main-content {
+  max-width: 85%;
+  border: 2px solid red;
+  margin: auto;
+  text-align: center;
+  background-color: white;
+}
+
+.selfie {
+  max-width: 20%;
+  padding: 10px;
+  float: left;
+  clear: none;
+  background-color: goldenrod;
+  border: 2px solid black;
+  margin-right: 20px;
+  margin: 10px;
+}
+
+
+.discription {
+  /* border: 3px solid blue; */
+  background-image: url(https://www.w3schools.com/w3images/mountainskies.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  max-width: 65%;
+  padding: 10%;
+  text-align: left;
+  font-size: 20px;
+  font-family: Impact,'Courier New', Courier, Helvetica, sans-serif;
+}
+
+.discription a {
+  color: rgba(22, 0, 119, 0.87);
+  text-decoration: underline;
+}
+
+.clear {
+  clear: both;
+}
+
+.blog-recomendation {
+  padding: 0 10px;
+}
+
+#secondary-content {
+  max-width: 60%;
+  /* border: 2px solid blue; */
+  margin: auto;
+  background-color: rgba(207, 206, 206, 0.7);
+  padding: 5px;
+}
+
+.first-label, .second-label  {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 5px;
+}
+
+ul {
+  text-align: left;
+  list-style: none;
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+  padding-left: 5px;
+}
+
+.impares {
+  font-style: oblique;
+  font-size: 17px;
+}
+
