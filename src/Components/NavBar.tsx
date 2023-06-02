@@ -12,9 +12,9 @@ function classNames(...classes: Array<string>) {
   return classes.filter(Boolean).join(' ')
 }
 
-export default function Header() {
+export default function NavBar() {
     return (
-        <Disclosure as="nav" className="bg-gray-800">
+        <Disclosure as="nav" className="bg-gray-900">
         {({ open }: {open: boolean}) => (
             <>
             <div className="mx-auto max-w-7xl px-2">
