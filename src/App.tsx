@@ -1,7 +1,11 @@
-import Header from "./Components/Header";
+import Banner from "./Components/Banner";
+import NavBar from "./Components/NavBar";
 
 export default function App() {
   return (
-    <Header />
+    <div>
+      <NavBar />
+      <Banner />
+    </div>
   )
 }
