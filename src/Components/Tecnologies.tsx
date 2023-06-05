@@ -9,7 +9,7 @@ export default function Tecnologies() {
           </h2>
           <div className="mx-auto mt-10 grid max-w-lg grid-cols-6 items-center gap-x-8 gap-y-10 phone:grid-cols-3 sm:max-w-xl sm:gap-x-10">
             {tecList.map((skill: {name: string, src: string}) => (
-                <div className="flex flex-col items-center">
+                <div key={skill.name} className="flex flex-col items-center">
                     <img
                     className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
                     src={skill.src}
