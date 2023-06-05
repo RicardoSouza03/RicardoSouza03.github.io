@@ -1,6 +1,7 @@
 import About from "./Components/About";
 import Banner from "./Components/Banner";
 import NavBar from "./Components/NavBar";
+import Projects from "./Components/Projects";
 import Tecnologies from "./Components/Tecnologies";
 
 export default function App() {
@@ -9,6 +10,7 @@ export default function App() {
       <NavBar />
       <Banner />
       <About />
+      <Projects />
       <Tecnologies />
     </div>
   )
