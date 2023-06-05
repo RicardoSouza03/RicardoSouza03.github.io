@@ -27,10 +27,13 @@ export default function Projects() {
                     >
                     {project.tecnologies.map((tecnologie) => (
                         <li key={tecnologie} className="list-disc">
-                        {tecnologie}
+                            {tecnologie}
                         </li>
                     ))}
                     </ul>
+                    <div className="block pt-6 flex justify-center">
+                        <a className="text-gray-200 border p-2 rounded-2xl bg-zinc-900 text-lg" target="_blank" rel="stylesheet" href={project.repository}>Check repo here</a>
+                    </div>
                 </div>
             ))}
         </div>
