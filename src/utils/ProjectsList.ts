@@ -7,6 +7,15 @@ type projects = {
 
 const listOfProjects: projects[] = [
     {
+        name: 'Pong Game',
+        description: 'Pong game is based on pong developed by Atari in 1972. But different from original, I decided that both players (or just you), will work together to reach level 10, while the game speed increases constantly each level.',
+        tecnologies: [
+        'Python',
+        'Pygame',
+        ],
+        repository: 'https://github.com/RicardoSouza03/Pong-Game',
+    },
+    {
         name: 'carShop',
         description: 'This is one of the projects that I developed in Trybe. In this project I created an API to manage a car concessionaire.',
         tecnologies: [
