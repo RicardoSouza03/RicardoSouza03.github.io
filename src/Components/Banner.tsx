@@ -1,4 +1,4 @@
-import RicardoSouza from '../images/RicardoSouza.png';
+import RicardoSouza from '../Images/RicardoSouza.png';
 
 export default function Banner() {
   return (
