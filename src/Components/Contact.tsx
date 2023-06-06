@@ -32,10 +32,10 @@ export default function Contact() {
                         <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Me siga no:</h2>
                         <ul className="text-gray-600 dark:text-gray-200 font-medium">
                             <li className="mb-4">
-                                <a href="www.linkedin.com/in/ricardolinosouza/" className="hover:underline ">Linkedin</a>
+                                <a href="https://www.linkedin.com/in/ricardolinosouza/" target="_blank" className="hover:underline ">Linkedin</a>
                             </li>
                             <li>
-                                <a href="github.com/RicardoSouza03" className="hover:underline">GitHub</a>
+                                <a href="https://www.github.com/RicardoSouza03" target="_blank" className="hover:underline">GitHub</a>
                             </li>
                         </ul>
                     </div>
