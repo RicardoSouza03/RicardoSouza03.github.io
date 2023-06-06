@@ -7,7 +7,7 @@ const contacts = [
 
 export default function Contact() {
     return (
-        <footer id="Contato" className="bg-white dark:bg-gray-900">
+        <footer id="Contact" className="bg-white dark:bg-gray-900">
             <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                 <div className="flex justify-evenly p-5">
                     <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">

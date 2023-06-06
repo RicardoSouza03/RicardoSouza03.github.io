@@ -2,7 +2,7 @@ import tecList from '../utils/SkillsList';
 
 export default function Tecnologies() {
     return (
-      <div className="bg-white py-8 sm:py-32">
+      <div id="Skills" className="bg-white py-8 sm:py-32">
         <div className="mx-auto max-w-7xl px-6">
           <h2 className="text-center text-4xl font-semibold leading-8 text-gray-800">
             Tecnologies learned
