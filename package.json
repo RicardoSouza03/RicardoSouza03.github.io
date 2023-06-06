@@ -1,5 +1,4 @@
 {
-  "homepage": "https://ricardosouza03.github.io/",
   "name": "portifolio",
   "private": true,
   "version": "0.0.0",
@@ -16,8 +15,7 @@
     "@headlessui/react": "^1.7.15",
     "@heroicons/react": "^2.0.18",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "web-vitals": "^3.3.2"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.37",
