@@ -16,6 +16,15 @@ const listOfProjects: projects[] = [
         repository: 'https://github.com/RicardoSouza03/Pong-Game',
     },
     {
+        name: 'Shooter-Game',
+        description: 'In Shooter Game your goal is helping Rodolfo to prevent aliens from taking his world, and the only way to do this is by defeating them. You score more by defeating this aliens non-stop.',
+        tecnologies: [
+        'Python',
+        'Pygame'
+        ],
+        repository: 'https://github.com/RicardoSouza03/Shooter-Game',
+    },
+    {
         name: 'carShop',
         description: 'This is one of the projects that I developed in Trybe. In this project I created an API to manage a car concessionaire.',
         tecnologies: [
@@ -42,7 +51,7 @@ const listOfProjects: projects[] = [
         'CSS',
         ],
         repository: 'https://github.com/RicardoSouza03/WalletExpenses',
-    },
+    }
 ];
 
 export default listOfProjects;
