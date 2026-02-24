@@ -1,12 +1,12 @@
 export default function About() {
   return (
     <div id="About" className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32">
-      <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-10">
+      <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-6">
           <div>
             <div>
               <p className="text-base font-semibold leading-7 text-indigo-600">About me</p>
               <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Ricardo Lino de Souza</h1>
-              <p className="mt-6 text-xl leading-8 text-gray-700">
+              <p className="mt-4 text-xl leading-8 text-gray-700">
                 Introducing a Passionate and Determined Developer
               </p>
             </div>
@@ -15,22 +15,34 @@ export default function About() {
           <div>
             <div className="max-w-xl text-base leading-7 text-gray-700">
               <p>
-                Hello, my name is Ricardo, I am a Web Developer, with my focus on backend development. Technology has been a part of my life since I was young, sparking my curiosity and guiding me towards a career in programming. Although I don't have formal professional experience yet, my learning mindset and determination have allowed me to gain proficiency in programming languages and related tools.
+              I am a Software Developer with nearly 3 years of experience in the tech industry, built entirely within IBM. My journey is defined by a solid foundation in backend development and a growing expertise in cloud-native solutions.
+
+              Currently, I specialize in building scalable systems using Java with Quarkus and/or Spring Batch, complemented by dynamic front-end development with Angular and TypeScript. My daily workflow is deeply integrated with modern DevOps practices, utilizing tools like OpenShift, ArgoCD, GitHub Actions, Jenkins, SonarQube, etc, to ensure high-quality delivery.
               </p>
-              <ul role="list" className="mt-8 space-y-8 text-gray-600">
-                <li className="flex gap-x-3">
+              <ul role="list" className="mt-8 space-y-6 text-gray-600">
+                <li>
                   <span>
-                    <strong className="font-semibold text-gray-900">Some tecnologies</strong> I have knowledge is Node.js, TypeScript, SQL, Python, Docker, etc.
+                    <strong className="font-semibold text-gray-900 text-xl underline">Core Highlights</strong>
                   </span>
                 </li>
-                <li className="flex gap-x-3">
+                <li >
                   <span>
-                    <strong className="font-semibold text-gray-900">My focus:</strong> Creating scalable solutions. I thoroughly enjoy solving complex problems, optimizing code for better performance and creating things I have never done before.
+                    <strong className="font-semibold text-gray-900">Cloud Certified:</strong> AWS Certified Cloud Practitioner (actively pursuing further certifications).
+                  </span>
+                </li>
+                <li>
+                  <span>
+                    <strong className="font-semibold text-gray-900">Education:</strong> Currently pursuing a B.S. in Computer Science at Estácio.
+                  </span>
+                </li>
+                <li>
+                  <span>
+                    <strong className="font-semibold text-gray-900">Tech Stack:</strong> Java (Quarkus/Spring), Angular, TypeScript, and CI/CD pipelines.
                   </span>
                 </li>
               </ul>
               <p className="mt-8">
-                I am constantly engaged in continuous learning, staying updated on trends and emerging technologies. I am excited and seeking to contribute my skills and knowledge to a dynamic team, where I can further develop my abilities and make a significant impact.
+                I am driven by a continuous learning mindset, always looking to bridge the gap between complex business requirements and efficient with an elegant code.
               </p>
             </div>
           </div>

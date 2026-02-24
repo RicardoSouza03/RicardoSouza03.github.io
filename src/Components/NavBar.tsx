@@ -30,9 +30,6 @@ export default function NavBar() {
                     </Disclosure.Button>
                 </div>
                 <div className="flex flex-1 ml-6 items-center phone:justify-center sm:justify-center justify-start">
-                    <div className="flex flex-shrink-0 items-center">
-                    <h1 className="text-white text-lg ml-6 block h-8 w-auto">Ricardo Souza</h1>
-                    </div>
                     <div className="hidden xl:ml-6 2xl:block 2xl:ml-6 xl:block md:block md:ml-6 lg:block lg:ml-6">
                     <div className="flex space-x-4">
                         {navigation.map((item) => (
